@@ -1,0 +1,92 @@
+body
+{
+    padding-top: 70px;
+}
+
+p.gft-statement
+{
+    font-size: 16px;
+}
+
+.gft-dob-group > select
+{
+    width: 33%;
+    display: inline;
+    margin: 0;
+}
+
+.gft-dob-group > select:first-of-type
+{
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.gft-dob-group > select:last-of-type
+{
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.gft-dob-group > select:nth-child(2)
+{
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.gft-login
+{
+    width: 250px;
+    padding: 0;
+}
+
+.gft-login > li
+{
+    padding: 10px;
+}
+
+.gft-login a
+{
+    font-size: 12px;
+    font-weight: normal;
+    color: #325d88;
+    text-transform: none;
+}
+
+.gft-login form .form-group
+{
+    margin-bottom: 5px;
+}
+
+.gft-login form .form-group label
+{
+   font-size: 11px;
+   margin: 0;
+}
+
+.gft-login form .checkbox
+{
+    font-size: 11px;
+    margin: 3px;
+}
+
+.gft-login form .form-group input[type=text],
+.gft-login form .form-group input[type=password]
+{
+    height: 30px;
+    font-size: 12px;
+    padding:3px 5px;
+}
+
+.gft-login form button
+{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.gft-login-hint
+{
+    position: absolute;
+    left: -145px;
+    color: #ffffff;
+}

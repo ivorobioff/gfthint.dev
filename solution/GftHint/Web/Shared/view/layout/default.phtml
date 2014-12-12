@@ -1,0 +1,56 @@
+<?=$this->doctype()?>
+<html>
+	<head>
+		<?=$this->partial('layout/header')?>
+	</head>
+	<body>
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="/" class="navbar-brand">GftHint</a>
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar-main">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="gft-login-hint">Already have account?</span> Log in &nbsp;<i class="fa fa-key"></i></a>
+						<ul class="dropdown-menu gft-login">
+							<li>
+								<form class="form" action="">
+									<div class="form-group">
+										<label>Email</label>
+										<input type="text" class="form-control" />
+									</div>
+									<div class="form-group">
+										<label>Password</label>
+										<input type="password" class="form-control" />
+										<div class="checkbox">
+											<label><input type="checkbox"/> Remember me</label>
+										</div>
+									</div>
+									<div class="form-group">
+										<button class="btn btn-success btn-sm" type="submit">Log in</button>
+										<div class="text-center">
+											<a href="#">Forgot password?</a>
+										</div>
+									</div>
+								</form>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<?=$this->content?>
+	</div>
+	<script src="<?=$this->basePath('/js/jquery.min.js')?>"></script>
+	<script src="<?=$this->basePath('/js/bootstrap.min.js')?>"></script>
+	</body>
+</html>
